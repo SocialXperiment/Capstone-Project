@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Welcome to the Tech Blog Dashboard</h1>
+<h3>Latest Posts</h3>
+{% for p in posts %}
+<div class="card mb-3">
+    <div class="card-body">
+        <h4>{{ p.title }}</h4>
+        <p><strong>Topic:</strong> {{ p.topic }}</p>
+        <p>{{ p.timestamp }}</p>
+        <a class="btn btn-primary" href="/post/{{ p.id }}">View Post</a>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

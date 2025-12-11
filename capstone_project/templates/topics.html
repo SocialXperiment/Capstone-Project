@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Topics</h2>
+<form method="POST" class="mb-3">
+  <label class="form-label">Add New Topic</label>
+  <input type="text" name="topic" class="form-control" required>
+  <button class="btn btn-success mt-2">Add Topic</button>
+</form>
+<ul class="list-group">
+{% for t in topics %}
+  <li class="list-group-item">{{ t }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

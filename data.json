@@ -1,0 +1,30 @@
+{
+    "topics": [
+        "Tik Tac Toe",
+        "Connect Four",
+        "Snake"
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Game",
+            "topic": "Tik Tac Toe",
+            "content": "Game is coming",
+            "timestamp": "2025-12-11 14:09:38"
+        },
+        {
+            "id": 2,
+            "title": "Game is coming",
+            "topic": "Connect Four",
+            "content": "Game is coming",
+            "timestamp": "2025-12-11 14:10:00"
+        },
+        {
+            "id": 3,
+            "title": "Game is Coming",
+            "topic": "Snake",
+            "content": "Game is Coming",
+            "timestamp": "2025-12-11 14:10:16"
+        }
+    ]
+}
